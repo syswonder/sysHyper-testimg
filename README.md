@@ -24,6 +24,8 @@ qemu启动后，将guest内的文件传入guest linux中
 scp -P 2333 -r test-img/guest/* root@localhost:~/
 ```
 
+其中，gic-demo.bin文件为起第二个cell所使用的镜像
+
 将hypervisor的镜像传入guest
 ```sh
 make scp
